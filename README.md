@@ -30,7 +30,7 @@ To address the limitations posed by quantum resource constraints, dimensionality
 - Principal Component Analysis (PCA)
 - 2D Discrete Cosine Transform (DCT2)
 
-Variational Quantum Classifiers (VQCs) and Quantum Support Vector Machines (QSVMs) were employed as the primary quantum classification techniques [2, 3].
+Variational Quantum Classifiers (VQCs), Quantum Neural Network (tested on Pennylane), Quantum circuit ANSATZ (tested on Qiskit) and Quantum Support Vector Machines (QSVMs) were employed as the primary quantum classification techniques [2, 3].
 
 ## Results
 Among the implemented quantum classification techniques, the Quantum Support Vector Machine demonstrated superior performance compared to other methods, including Quantum Neural Networks (QNNs) and hybrid architectures. This indicates the potential of QSVM in achieving higher accuracy and efficiency in the classification of medical images, highlighting their applicability in real-world biomedical scenarios.
