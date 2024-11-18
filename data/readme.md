@@ -10,7 +10,7 @@ The dataset consists of:
 - **3D nodule images** stored as `.npy` files in the `cubes_selected/` directory.
 - **Metadata** provided in an Excel file (`infoNodul681.xlsx`) to filter and identify high-quality nodule samples.
 
-You can explore the dataset at [Google Drive repository]([mylink](https://drive.google.com/drive/folders/1hKr88xRUFkZA641HPnG72sk3kWF0KvDS?usp=sharing)).
+You can explore the dataset at [Google Drive repository](https://drive.google.com/drive/folders/1hKr88xRUFkZA641HPnG72sk3kWF0KvDS?usp=sharing).
 
 ---
 
@@ -79,20 +79,20 @@ The output should confirm:
 ### 3. Extract a Flattened 2D View
 To work with a flattened 2D slice of the 3D data, extract the slice corresponding to a fixed plane (e.g., the 16th plane):
 ```python
-# Initialize a list for 2D slices
+# Initialize a list
 opImages = list()
 
-# Loop through the 3D images to extract a 2D slice
+# Loop through the 3D images to extract a 2D slice and flatten
 for i in range(nrows):
     lcube = nodImag[i]
     opCube = lcube[16, :, :]  # Extract the 16th slice (Longitudinal Plane)
     opCube = opCube[0:32, 0:32]  # Ensure the slice is square (32x32)
-    opCube = np.reshape(opCube, 1024)  # Flatten to a 1D vector
+    opCube = np.reshape(opCube, 1024)  # Flatten the 2D slice into a 1D vector of size 1024
     opImages.append(opCube)
 
-# Convert the list of 2D slices into a NumPy array
+# Combine the list of flattened slices into a 2D NumPy array
 sampleImg = np.array(opImages, dtype="uint8")
-print(sampleImg.shape)  # Check the shape of the final flattened dataset
+print(sampleImg.shape)  # Should output: (number_of_images, 1024)
 ```
 
 Output:
