@@ -20,6 +20,14 @@ Quantum Machine Learning in Biomedical Applications: A Comparative Study.
 ## Introduction
 Quantum Machine Learning (QML) has emerged as a promising paradigm, offering significant potential for applications in biomedicine. The accessibility and democratization of various quantum computing simulation tools have facilitated a smoother transition from classical machine learning to QML. This paper focuses on analyzing a classical image classification problem, with a particular emphasis on the use of real medical images, such as those used for recognizing malignant tumors in CT scans [1]. The primary contribution of this work is a comprehensive comparison of different QML software frameworks and the investigation of classical data encoding within fully quantum and hybrid quantum frameworks.
 
+### Lung Nodule Database:
+ - 681 CT lung nodule images from the LIDC-IDRI dataset [1]
+
+ - Nodule subimages (size 32x32x32)
+
+ - 2D central slice extracted for processing (size 32x32)
+
+
 ## Methods
 This study explores two prominent approaches commonly employed in quantum image processing: quantum image encoding techniques and classical image data encoding for quantum processing. The first approach utilizes quantum image encoding techniques, such as Flexible Representation of Quantum Images (FRQI) [2] and Novel Enhanced Quantum Representation (NEQR) [3], to leverage their inherent advantages.
 
@@ -85,11 +93,14 @@ Among the implemented quantum classification techniques, the Quantum Support Vec
 This work is part of Maria de Maeztu Units of Excellence Programme CEX2021-001195-M, funded by MICIU/AEI /10.13039/501100011033
 
 ## References
-[1] Armato III, S.G. et al. The lung image database consortium (LIDC) and image database resource initiative (IDRI) . Medical Physics 38(2):915-931, 2011. 
-[2] Le, P.Q. et al. A flexible representation of quantum images for polynomial preparation, image compression, and processing operations. Quantum Information Processing 10(1):63–84, 2010
+
+[1] Armato III, S.G. et al. The lung image database consortium (LIDC) and image database resource initiative (IDRI). Medical Physics 38(2):915-931, 2011.
+
+[2] Le, P.Q. et al. A flexible representation of quantum images for polynomial preparation, image compression, and processing operations. Quantum Information Processing 10(1):63–84, 2010.
+
 [3] Zhang, Y. et al. NEQR: A novel enhanced quantum representation of digital images. Quantum Information Processing 12(8):2833–2860, 2013.
+
 [4] Combarro & Gonzalez-Castillo, S. A Practical Guide to Quantum Machine Learning and Quantum Optimisation: Hands-On Approach to Modern Quantum Algorithms, 2023.
-[5] Schuld, M. Supervised quantum machine learning models are kernel methods, arXiv:2101.11020, 2021
 
-
+[5] Schuld, M. Supervised quantum machine learning models are kernel methods, arXiv:2101.11020, 2021.
 
