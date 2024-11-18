@@ -115,5 +115,4 @@ Output:
 
 ---
 
-## Contact
-For any questions or issues, feel free to open an issue in this repository or contact the maintainers.
+
