@@ -7,8 +7,9 @@ This repository contains implementations of quantum classifiers applied to medic
 
 
 ## Introduction: Why Pennylane?
-![](figures/logopennylane.svg)
+![Pennylane Logo](logopennylane.svg)
 
+Using Pennylane Framework
 
 This repository leverages the **Pennylane framework**, a cutting-edge software platform for quantum machine learning, quantum computing, and quantum simulation. Pennylane provides a user-friendly and powerful interface to develop hybrid quantum-classical models, seamlessly integrating quantum circuits into machine learning pipelines. 
 
@@ -97,17 +98,5 @@ print("Test predictions complete")
 
 ---
 
-## Getting Started
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-repo-link.git
-   cd your-repo-link
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Access and run the notebooks linked above to explore the results and analyses.
 
 ---
