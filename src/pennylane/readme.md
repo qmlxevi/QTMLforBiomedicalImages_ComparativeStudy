@@ -7,7 +7,7 @@ This repository contains implementations of quantum classifiers applied to medic
 
 
 ## Introduction: Why Pennylane?
-![Pennylane Logo](logoPenylane.svg)
+![Pennylane Logo](pennylaneLogo.png)
 
 Using Pennylane Framework
 
