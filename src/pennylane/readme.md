@@ -4,6 +4,24 @@
 
 This repository contains implementations of quantum classifiers applied to medical imaging, including various quantum neural networks, hybrid architectures, and support vector machines (QSVM). The project explores numerous configurations, including different feature extraction methods such as PCA and DCT2, and fusion across multiple imaging planes.
 
+
+
+## Introduction: Why Pennylane?
+![](figures/logopennylane.svg)
+
+
+This repository leverages the **Pennylane framework**, a cutting-edge software platform for quantum machine learning, quantum computing, and quantum simulation. Pennylane provides a user-friendly and powerful interface to develop hybrid quantum-classical models, seamlessly integrating quantum circuits into machine learning pipelines. 
+
+### Why Choose Pennylane?
+1. **Hybrid Quantum-Classical Approach**: Pennylane specializes in hybrid workflows, enabling the integration of quantum computation with classical machine learning libraries like TensorFlow, PyTorch, and scikit-learn.
+2. **Device Agnosticism**: It supports a wide range of quantum hardware (e.g., IBM Q, Rigetti, and Xanadu’s own photonic quantum computers) and simulators, making it versatile and adaptable.
+3. **Automatic Differentiation**: The framework allows for automatic differentiation of quantum circuits, facilitating the optimization of quantum models in a manner similar to classical neural networks.
+4. **Ease of Use**: Pennylane’s Pythonic interface is intuitive and integrates seamlessly into existing ML and data science workflows.
+5. **Extensive Community and Documentation**: Its rich documentation and active community make it an ideal choice for both research and development.
+
+
+By using Pennylane, this project benefits from state-of-the-art quantum software tailored to the needs of quantum machine learning research and experimentation.
+
 ---
 
 ## Notebooks and Results
@@ -13,8 +31,7 @@ The following notebooks explore quantum neural network architectures and hybrid 
 
 - [Quantum Pennylane Neural Network (Coronal Plane)](https://colab.research.google.com/drive/1fPocsN_QRsmKPKKEtMd97QIhdD7uc2i0?usp=sharing)
 - [Quantum Pennylane Hybrid Architectures (Coronal Plane)](https://colab.research.google.com/drive/1jAzbUpFsK9FcaeJEW4MEePDWh1mmsTDX?usp=sharing)
-- [Quantum Qiskit with ZZFeatureMap and PCA (Coronal Plane)](https://colab.research.google.com/drive/1VRK2ov-YTuivl-WhKOUFYwqaJ3YKzta0?usp=sharing)
-- [Quantum Qiskit with ZZFeatureMap and DCT2 (Coronal Plane)](https://colab.research.google.com/drive/10SOTcLBeRt1mW3NaQAkI51oGLDtVvNfP?usp=sharing)
+
 
 ### Quantum Support Vector Machines (QSVM)
 Significant performance improvements were observed using QSVM models. Below are links to the successful implementations:
