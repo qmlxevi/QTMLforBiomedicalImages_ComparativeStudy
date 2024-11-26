@@ -20,7 +20,7 @@ This repository leverages the **Qiskit framework**, the world’s most popular s
 
 By using Qiskit, this project benefits from IBM’s state-of-the-art quantum computing software, tailored to drive innovation in quantum machine learning research.
 
-Please feel free to explore and learn more about this powerful framework by visiting the [official Qiskit website]([https://qiskit.org/](https://www.ibm.com/quantum/qiskit). There, you'll find comprehensive documentation, tutorials, and resources to get started with quantum computing and quantum machine learning.
+Please feel free to explore and learn more about this powerful framework by visiting the [official Qiskit website](https://www.ibm.com/quantum/qiskit). There, you'll find comprehensive documentation, tutorials, and resources to get started with quantum computing and quantum machine learning.
 
 
 
@@ -40,7 +40,7 @@ Explore how quantum image encoding methods can be applied to medical imaging dat
 
 #### 2. **Evaluation of Quantum Classifiers Using NEQR**
 - Description: This notebook uses the Novel Enhanced Quantum Representation (NEQR) method, an advanced technique for quantum image encoding.
-- [Download the Notebook](https://drive.google.com/file/d/1pR95DHy_OlTwUGEij4hP7YyqkcjIA2YO/view?usp=sharing)
+- [View the Notebook](https://drive.google.com/file/d/1pR95DHy_OlTwUGEij4hP7YyqkcjIA2YO/view?usp=sharing)
 
 ---
 
@@ -58,4 +58,4 @@ These notebooks highlight quantum classification methods applied to medical imag
 
 ---
 
-Feel free to explore these notebooks to better understand the application of quantum computing in medical imaging. For any questions or further clarification, please open an issue in this repository.
+Feel free to explore these notebooks.
