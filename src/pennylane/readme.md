@@ -23,7 +23,7 @@ This repository leverages the **Pennylane framework**, a cutting-edge software p
 
 By using Pennylane, this project benefits from state-of-the-art quantum software tailored to the needs of quantum machine learning research and experimentation.
 
-Please feel free to explore and learn more about this powerful framework by visiting the [official Pennylane website](https://pennylane.ai/). There, you'll find comprehensive documentation, tutorials, and resources to get started with quantum computing and machine learning.
+Please feel free to explore and learn more about this powerful framework by visiting the [official Pennylane website](https://pennylane.ai/). There, you'll find comprehensive documentation, tutorials, and resources to get started with quantum computing and quantum machine learning.
 
 ---
 
